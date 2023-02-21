@@ -3,10 +3,8 @@
 ;클라이언트 세팅 ---------------------
 version = 1
 실행한파일 =
+
 ;상태 체크 ------------------
-random, a
-;clipboard := a
-;exitapp
 urldownloadtofile, <<수정됨>> , %a_temp%\check%a%.txt
 If ErrorLevel
 	{
